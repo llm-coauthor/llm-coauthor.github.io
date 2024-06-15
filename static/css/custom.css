@@ -1,0 +1,172 @@
+/*************************************************************************
+ * Your custom CSS file
+ *************************************************************************/
+
+.feature img {
+  width: 90px;
+  height: 90px;
+  display: block;
+  margin: 0 auto;
+}
+
+.feature h2 {
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.feature p {
+  text-align: center;
+  font-size: 14px;
+}
+
+.feature h2{
+  color: rgb(21, 74, 172);
+  line-height: 30px;
+  text-align: center;
+}
+
+.featurecard-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Adjust the spacing between the boxes */
+  align-items: flex-start; /* Align the tops of the features if they have different heights */
+  gap: 20px; /* Space between the features */
+  padding: 20px; /* Padding around the entire features container */
+}
+
+
+
+.feature {
+  margin-bottom: 20px; /* Space between rows of features */
+  /* Additional styles for the feature boxes */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  flex: 0 0 calc(50% - 20px); /* 减去的20px代表两个项目之间总共的间距 */
+  margin: 1px; /* 为了使项目之间有间距，并在容器的宽度中居中显示 */
+  box-sizing: border-box; /* 确保内边距和边框包含在宽度计算内 */
+  padding: 25px; /* 项目内的填充 */
+  border-radius: 10px; /* 边角的圆角半径 */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+  background-color: #fff; /* 背景颜色 */
+  border: 1px solid #e6e6e6; /* 边框 */
+  text-align: center; /* 文本居中对齐 */
+  cursor: pointer; /* 如果你希望整个卡片可点击 */
+  transition: box-shadow 0.3s ease, max-height 0.7s ease; /* 过渡效果 */
+}
+
+.feature_1x1 {
+  margin-bottom: 20px; /* Space between rows of features */
+  /* Additional styles for the feature boxes */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  flex: 0 0 calc(95% - 20px); /* 减去的20px代表两个项目之间总共的间距 */
+  margin: 1px; /* 为了使项目之间有间距，并在容器的宽度中居中显示 */
+  box-sizing: border-box; /* 确保内边距和边框包含在宽度计算内 */
+  padding: 25px; /* 项目内的填充 */
+  border-radius: 10px; /* 边角的圆角半径 */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+  background-color: #fff; /* 背景颜色 */
+  border: 1px solid #e6e6e6; /* 边框 */
+  text-align: center; /* 文本居中对齐 */
+  cursor: pointer; /* 如果你希望整个卡片可点击 */
+  transition: box-shadow 0.3s ease, max-height 0.7s ease; /* 过渡效果 */
+}
+
+.featurecard{
+  background-color:#005cbf;
+  border-radius: 10px; /* 所有角都会有10像素的圆角 */
+  position: relative;
+
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+
+
+  padding: 10px auto;
+
+  justify-content: center; /* 水平居中内容 */
+  align-items: center; /* 垂直居中内容 */
+  text-align: center; /* 确保文本在块级元素中居中对齐 */
+}
+.featurecard h2 {
+  width: 100%; /* 确保占满整个容器宽度 */
+  color: white; /* 文本颜色设置为白色 */
+  margin: 0 ; /* 移除默认的外边距 */
+  font-size: 22px;
+  padding: 0;
+  line-height: 3.0;
+}
+
+
+
+.feature:hover {
+  box-shadow: 0 8px 16px -2px rgba(0, 0, 0, 0.5);
+}
+
+.feature img {
+  max-width: 100px; /* Adjust as needed */
+  height: auto;
+  margin-top: 20px;
+}
+
+.feature:hover .description {
+  max-height: 2000px; /* Adjust as needed */
+  padding: 20px;
+}
+
+.feature_1x1:hover {
+  box-shadow: 0 8px 16px -2px rgba(0, 0, 0, 0.5);
+}
+
+.feature_1x1 img {
+  max-width: 100px; /* Adjust as needed */
+  height: auto;
+  margin-top: 20px;
+}
+
+.feature_1x1:hover .description {
+  max-height: 2000px; /* Adjust as needed */
+  padding: 20px;
+}
+
+
+.toggle {
+  display: none;
+}
+
+.toggle-label {
+  background-color: #65a7e8;
+  color: white;
+  padding: 10px 20px;
+  margin: 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.toggle-label::after {
+  content: '▼';
+  float: right;
+  transition: transform 0.3s ease;
+}
+
+.toggle:checked + .toggle-label::after {
+  transform: rotate(180deg);
+}
+
+.description {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.7s ease, padding 0.7s ease;
+  background-color: #fff;
+  padding: 0 20px;
+  text-align: left;
+  font-size: 20px; /* This is an example, set the font size you prefer */
+}
+
+/* Additional styles to ensure consistency in font size */
+.description p,
+.description li {
+  text-align: left;
+  font-size: 20px; /* This should match the font-size defined for .description */
+}

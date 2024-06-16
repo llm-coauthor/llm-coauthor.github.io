@@ -20,7 +20,7 @@
 }
 
 .feature h2{
-  color: rgb(21, 74, 172);
+  color: rgb(120, 218, 251);
   line-height: 30px;
   text-align: center;
 }
@@ -75,7 +75,7 @@
 }
 
 .featurecard{
-  background-color:#005cbf;
+  background-color:rgb(120, 218, 251);
   border-radius: 10px; /* 所有角都会有10像素的圆角 */
   position: relative;
 

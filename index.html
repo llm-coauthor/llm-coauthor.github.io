@@ -350,297 +350,294 @@
         of tasks. **GUIWorld** contains a total of 12k videos and 100k queries.
         We make a comparison of **GUIWorld** against some other different benchmarks or dataset in GUI domain as
         presented below. </md-block>
-        <div class="column is-full-width interpolation-panel">
-          <div class="columns">
-            <div class="column is-one-third">
-              <table class="table is-hoverable is-striped" style="margin: 0 auto; background-color: rgba(0,0,0,0)">
-                <thead>
-                  <tr>
-                    <th style="border: 0">&nbsp;</th>
-                    <th style="vertical-align: middle" rowspan="1">GUI-WORLD</th>
-                  </tr>
+      <div class="column is-full-width interpolation-panel"> 
+        <div class="columns">
+          <div class="column is-one-third">
+            <table class="table is-hoverable is-striped" style="margin: 0 auto; background-color: rgba(0,0,0,0)">
+              <tr>
+                <th style="border: 0">&nbsp;</th>
+                <th style="vertical-align: middle" rowspan="1">GUI-WORLD</th>
+              </tr>
 
-                </thead>
-                <tr>
+              <tr>
 
-                  <td style="font-weight: bold">Instances</td>
-                  <td style="text-align: center;">12,379</td>
-                </tr>
-                <tr>
-                  <td style="font-weight: bold">Sem.</td>
-                  <td style="text-align: center;">Both</td>
-                </tr>
-                <tr>
-                  <td style="font-weight: bold">VL</td>
-                  <td style="text-align: center;"><span
-                      class="bg-green-100 text-green-700 font-bold py-1 px-3 rounded-full">✔️</span></td>
-                </tr>
-                <tr>
-                  <td style="font-weight: bold">Video</td>
-                  <td style="text-align: center;"><span
-                      class="bg-green-100 text-green-700 font-bold py-1 px-3 rounded-full">✔️</span></td>
-                </tr>
-                <tr>
-                  <td style="font-weight: bold">Web</td>
-                  <td style="text-align: center;"><span
-                      class="bg-green-100 text-green-700 font-bold py-1 px-3 rounded-full">✔️</span></td>
-                </tr>
-                <tr>
-                  <td style="font-weight: bold">Mob.</td>
-                  <td style="text-align: center;">
-                    ✔️
-                  </td>
-                </tr>
-                <tr>
-                  <td style="font-weight: bold">Desk.</td>
-                  <td style="text-align: center;">
-                    ✔️
-                  </td>
-                </tr>
-                <tr>
-                  <td style="font-weight: bold">XR</td>
-                  <td style="text-align: center;">
-                    ✔️
-                  </td>
-                </tr>
-                <tr>
-                  <td style="font-weight: bold">Sequential</td>
-                  <td style="text-align: center;">
-                    ✔️
-                  </td>
-                </tr>
-                <tr>
-                  <td style="font-weight: bold">CrossApp</td>
-                  <td style="text-align: center;">
-                    ✔️
-                  </td>
-                </tr>
-                <tr>
-                  <td style="font-weight: bold">Dynamic</td>
-                  <td style="text-align: center;">
-                    ✔️
-                  </td>
-                </tr>
-                <tr>
-                  <td style="font-weight: bold">Detailed Tasks</td>
-                  <td style="text-align: center;">
-                    GUI Understanding Instruction Following
-                  </td>
-                </tr>
-              </table>
+                <td style="font-weight: bold">Instances</td>
+                <td style="text-align: center;">12,379</td>
+              </tr>
+              <tr>
+                <td style="font-weight: bold">Sem.</td>
+                <td style="text-align: center;">Both</td>
+              </tr>
+              <tr>
+                <td style="font-weight: bold">VL</td>
+                <td style="text-align: center;"><span
+                    class="bg-green-100 text-green-700 font-bold py-1 px-3 rounded-full">✔️</span></td>
+              </tr>
+              <tr>
+                <td style="font-weight: bold">Video</td>
+                <td style="text-align: center;"><span
+                    class="bg-green-100 text-green-700 font-bold py-1 px-3 rounded-full">✔️</span></td>
+              </tr>
+              <tr>
+                <td style="font-weight: bold">Web</td>
+                <td style="text-align: center;"><span
+                    class="bg-green-100 text-green-700 font-bold py-1 px-3 rounded-full">✔️</span></td>
+              </tr>
+              <tr>
+                <td style="font-weight: bold">Mob.</td>
+                <td style="text-align: center;">
+                  ✔️
+                </td>
+              </tr>
+              <tr>
+                <td style="font-weight: bold">Desk.</td>
+                <td style="text-align: center;">
+                  ✔️
+                </td>
+              </tr>
+              <tr>
+                <td style="font-weight: bold">XR</td>
+                <td style="text-align: center;">
+                  ✔️
+                </td>
+              </tr>
+              <tr>
+                <td style="font-weight: bold">Sequential</td>
+                <td style="text-align: center;">
+                  ✔️
+                </td>
+              </tr>
+              <tr>
+                <td style="font-weight: bold">CrossApp</td>
+                <td style="text-align: center;">
+                  ✔️
+                </td>
+              </tr>
+              <tr>
+                <td style="font-weight: bold">Dynamic</td>
+                <td style="text-align: center;">
+                  ✔️
+                </td>
+              </tr>
+              <tr>
+                <td style="font-weight: bold">Detailed Tasks</td>
+                <td style="text-align: center;">
+                  GUI Understanding Instruction Following
+                </td>
+              </tr>
+            </table>
 
-            </div>
-            <div class="column is-two-thirds">
-              <div class="table-container">
-                <div class="columns">
-                  <div class="column">
-                    <table class="table is-hoverable is-striped"
-                      style="margin: 0 auto; background-color: rgba(0,0,0,0); width:600px; text-align: center;">
-                      <!-- <thead> -->
-                        <tr>
-                          <th style="width: 33%"><a href="https://github.com/SkyworkAI/agent-studio"
-                              target="_blank">AgentStudio</a></th>
-                          <th style="width: 33%"><a href="https://os-world.github.io/" target="_blank">OSWorld</a>
-                          </th>
-                          <th style="width: 33%"><a href="https://arxiv.org/abs/2211.07615" target="_blank">UGIF</a>
-                          </th>
-                          <th style="width: 33%"><a
-                              href="https://github.com/google-research/google-research/tree/master/android_in_the_wild"
-                              target="_blank">AitW</a></th>
-                          <th style="width: 33%"><a href="https://osu-nlp-group.github.io/Mind2Web/"
-                              target="_blank">Mind2Web</a></th>
-                          <th style="width: 33%"><a href="http://www.interactionmining.org/rico.html"
-                              target="_blank">Rico</a></th>
-                          <th style="width: 33%"><a href="https://github.com/apple/ml-ferret"
-                              target="_blank">FerretUI</a>
-                          </th>
-                          <th style="width: 33%"><a href="https://webarena.dev/" target="_blank">WebArena</a></th>
-                          <th style="width: 33%"><a href="https://x-lance.github.io/META-GUI-Leaderboard/"
-                              target="_blank">MetaGUI</a></th>
-                          <th style="width: 33%"><a href="https://miniwob.farama.org/" target="_blank">MiniWoB++</a>
-                          </th>
-                          <th style="width: 33%"><a href="https://huggingface.co/datasets/Writer/omniact"
-                              target="_blank">OmniAct</a></th>
-                          <th style="width: 33%"><a href="https://mmina.cliangyu.com/" target="_blank">MMINA</a></th>
-                        </tr>
-                        <tr>
-                          <td>304</td>
-                          <td>369</td>
-                          <td>523</td>
-                          <td>715,142</td>
-                          <td>2,350</td>
-                          <td>72,219</td>
-                          <td>123,702</td>
-                          <td>812</td>
-                          <td>1,125</td>
-                          <td>100</td>
-                          <td>9,802</td>
-                          <td>1,050</td>
-                        </tr>
-                        <tr>
-                          <td>High</td>
-                          <td>High</td>
-                          <td>High</td>
-                          <td>High</td>
-                          <td>Both</td>
-                          <td>Low</td>
-                          <td>Low</td>
-                          <td>Low</td>
-                          <td>Low</td>
-                          <td>Low</td>
-                          <td>Low</td>
-                          <td>Low</td>
-                        </tr>
-                        <tr>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                        </tr>
-                        <tr>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">✔️</td>
-                        </tr>
-                        <tr>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                        </tr>
-                        <tr>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">✔️</td>
-                        </tr>
-                        <tr>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">❌</td>
-                        </tr>
-                        <tr>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                        </tr>
-                        <tr>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                        </tr>
-                        <tr>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">✔️</td>
-                          <td data-title="Open-Weight">✔️</td>
-                        </tr>
-                        <tr>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                          <td data-title="Open-Weight">❌</td>
-                        </tr>
-                        <tr>
-                          <td>General Control</td>
-                          <td>General Control</td>
-                          <td>UI Grounded Instruction Following</td>
-                          <td>GUI Understanding</td>
-                          <td>Web Navigation</td>
-                          <td>UI Code/Layout Generation</td>
-                          <td>UI Grounding & Understanding</td>
-                          <td>Web Navigation</td>
-                          <td>Mobile Navigation</td>
-                          <td>Web Navigation</td>
-                          <td>Code Generation</td>
-                          <td>Web Navigation</td>
-                        </tr>
-                    </table>
-                  </div>
-
-
+          </div>
+          <div class="column is-two-thirds">
+            <div class="table-container">
+              <div class="columns">
+                <div class="column">
+                  <table class="table is-hoverable is-striped"
+                    style="margin: 0 auto; background-color: rgba(0,0,0,0); width:600px; text-align: center;">
+                    <!-- <thead> -->
+                    <tr>
+                      <th style="width: 33%"><a href="https://github.com/SkyworkAI/agent-studio"
+                          target="_blank">AgentStudio</a></th>
+                      <th style="width: 33%"><a href="https://os-world.github.io/" target="_blank">OSWorld</a>
+                      </th>
+                      <th style="width: 33%"><a href="https://arxiv.org/abs/2211.07615" target="_blank">UGIF</a>
+                      </th>
+                      <th style="width: 33%"><a
+                          href="https://github.com/google-research/google-research/tree/master/android_in_the_wild"
+                          target="_blank">AitW</a></th>
+                      <th style="width: 33%"><a href="https://osu-nlp-group.github.io/Mind2Web/"
+                          target="_blank">Mind2Web</a></th>
+                      <th style="width: 33%"><a href="http://www.interactionmining.org/rico.html"
+                          target="_blank">Rico</a></th>
+                      <th style="width: 33%"><a href="https://github.com/apple/ml-ferret" target="_blank">FerretUI</a>
+                      </th>
+                      <th style="width: 33%"><a href="https://webarena.dev/" target="_blank">WebArena</a></th>
+                      <th style="width: 33%"><a href="https://x-lance.github.io/META-GUI-Leaderboard/"
+                          target="_blank">MetaGUI</a></th>
+                      <th style="width: 33%"><a href="https://miniwob.farama.org/" target="_blank">MiniWoB++</a>
+                      </th>
+                      <th style="width: 33%"><a href="https://huggingface.co/datasets/Writer/omniact"
+                          target="_blank">OmniAct</a></th>
+                      <th style="width: 33%"><a href="https://mmina.cliangyu.com/" target="_blank">MMINA</a></th>
+                    </tr>
+                    <tr>
+                      <td>304</td>
+                      <td>369</td>
+                      <td>523</td>
+                      <td>715,142</td>
+                      <td>2,350</td>
+                      <td>72,219</td>
+                      <td>123,702</td>
+                      <td>812</td>
+                      <td>1,125</td>
+                      <td>100</td>
+                      <td>9,802</td>
+                      <td>1,050</td>
+                    </tr>
+                    <tr>
+                      <td>High</td>
+                      <td>High</td>
+                      <td>High</td>
+                      <td>High</td>
+                      <td>Both</td>
+                      <td>Low</td>
+                      <td>Low</td>
+                      <td>Low</td>
+                      <td>Low</td>
+                      <td>Low</td>
+                      <td>Low</td>
+                      <td>Low</td>
+                    </tr>
+                    <tr>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                    </tr>
+                    <tr>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">✔️</td>
+                    </tr>
+                    <tr>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                    </tr>
+                    <tr>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">✔️</td>
+                    </tr>
+                    <tr>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">❌</td>
+                    </tr>
+                    <tr>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                    </tr>
+                    <tr>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                    </tr>
+                    <tr>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">✔️</td>
+                      <td data-title="Open-Weight">✔️</td>
+                    </tr>
+                    <tr>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                      <td data-title="Open-Weight">❌</td>
+                    </tr>
+                    <tr>
+                      <td>General Control</td>
+                      <td>General Control</td>
+                      <td>UI Grounded Instruction Following</td>
+                      <td>GUI Understanding</td>
+                      <td>Web Navigation</td>
+                      <td>UI Code/Layout Generation</td>
+                      <td>UI Grounding & Understanding</td>
+                      <td>Web Navigation</td>
+                      <td>Mobile Navigation</td>
+                      <td>Web Navigation</td>
+                      <td>Code Generation</td>
+                      <td>Web Navigation</td>
+                    </tr>
+                  </table>
                 </div>
+
+
               </div>
             </div>
           </div>
         </div>
-        <!--/ Data Statistics. -->
+      </div>
+      <!--/ Data Statistics. -->
     </div>
   </section>
 
@@ -1424,40 +1421,40 @@
 
                   <div class="table-container">
                     <table>
-                        <thead>
-                            <tr>
-                                <th>Res.</th>
-                                <th>Desc.</th>
-                                <th>Conv.</th>
-                                <th>Dyn.</th>
-                                <th>Static</th>
-                                <th>Caption</th>
-                                <th>Average</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><b>Low</b></td>
-                                <td>2.794</td>
-                                <td>3.912</td>
-                                <td>3.150</td>
-                                <td>2.869</td>
-                                <td>3.672</td>
-                                <td>3.394</td>
-                            </tr>
-                            <tr class="bold">
-                                <td><b>High</b></td>
-                                <td>3.031</td>
-                                <td>4.056</td>
-                                <td>3.318</td>
-                                <td>3.131</td>
-                                <td>3.911</td>
-                                <td>3.573</td>
-                            </tr>
-                        </tbody>
+                      <thead>
+                        <tr>
+                          <th>Res.</th>
+                          <th>Desc.</th>
+                          <th>Conv.</th>
+                          <th>Dyn.</th>
+                          <th>Static</th>
+                          <th>Caption</th>
+                          <th>Average</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td><b>Low</b></td>
+                          <td>2.794</td>
+                          <td>3.912</td>
+                          <td>3.150</td>
+                          <td>2.869</td>
+                          <td>3.672</td>
+                          <td>3.394</td>
+                        </tr>
+                        <tr class="bold">
+                          <td><b>High</b></td>
+                          <td>3.031</td>
+                          <td>4.056</td>
+                          <td>3.318</td>
+                          <td>3.131</td>
+                          <td>3.911</td>
+                          <td>3.573</td>
+                        </tr>
+                      </tbody>
                     </table>
-                </div>
-                
+                  </div>
+
                 </div>
 
               </div>
